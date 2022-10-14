@@ -1,0 +1,404 @@
+@font-face {
+    font-family: 'flamebold';
+    src: url('./Font/flamebold-webfont.woff2') format('woff2'),
+         url('./Font/flamebold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flamecondensed';
+    src: url('./Font/flamecondensed-webfont.woff2') format('woff2'),
+         url('./Font/flamecondensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'flameregular';
+    src: url('./Font/flameregular-webfont.woff2') format('woff2'),
+         url('./Font/flameregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'flamesans';
+    src: url('./Font/flamesans-webfont.woff2') format('woff2'),
+         url('./Font/flamesans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245,235,220);
+    z-index: 1;
+}
+
+.nav-1{
+    padding-left: 15px;
+    width: 50%;
+    
+    
+}
+.nav-1 ul {
+    float: left;
+}
+.nav-1 ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 0 0 18px;
+}
+
+.nav-1 ul li a {
+    text-decoration: none;
+    color: rgb(80,35,20);
+    font-family:  'flamesans';
+    font-weight:900
+}
+.nav-1 ul li a:hover {
+    color: rgb(214,35,0);
+}
+
+.for-header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(245,235,220);
+    z-index: 2;
+    
+}
+
+/* .nav-2{
+    margin-top: 10px;
+} */
+
+.nav-2 img {
+    width: 215px;
+    height: 85px;
+    position: relative;
+    top: 66px;
+    right: 195px;
+}
+.nav-2  {
+    float: right;
+    padding-left: 180px;
+    padding-bottom: 20px;
+    margin-top: -68px;    
+}
+
+/* .nav-2 ul {
+    padding-left: 10px;
+} */
+.nav-2 ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 29px;
+    margin: 3px;
+}
+
+.nav-2 ul li a {
+    text-decoration: none;
+    color: rgb(80,35,20);
+    font-family:  'flamesans';
+    font-weight:900
+}
+
+
+.loc {
+    text-decoration: underline;
+    font-weight: 200;
+}
+.loc:hover {
+    text-decoration: none;
+}
+.sign {
+    color: azure;
+}
+.sign a{
+    background-color: rgb(214,35,0);
+    text-align: center;
+    color: azure;
+
+}
+.sign p {
+    color: rgb(255,255,255);
+    background-color: rgb(214,35,0);
+    text-align: center;
+    padding: 8px 25px 8px 25px;
+    border-radius: 15px;
+    font-size: small;
+}
+.cart p {
+    color: rgb(255,255,255);
+    background-color: rgb(80,35,20);
+    text-align: center;
+    padding: 8px 25px 8px 25px;
+    border-radius: 15px;
+    font-size: small;
+}
+.dropdown {
+    display: none;
+}
+.dropdown:hover{
+    display: block;
+}
+
+.royal {
+    /* margin: 70px; */
+    width: 582px;
+    height: 437px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    border-bottom: 1px solid rgb(117, 117, 117)
+}
+.royal img {
+    margin-top: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+.royal p {
+    margin: 15px;
+    margin-left: 20px;
+    width: 360px;
+    font-family:  'flameregular';
+    color: rgb(80,35,20);
+}
+.royal p a {
+    color: rgb(80,35,20);
+}
+.royal p a:hover{
+    color: rgb(214,35,0) ;
+}
+.small {
+    font-size: small;
+    font-family:  'flamesans' ;
+}
+.order {
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    bottom:  19px;
+    border: 1px solid rgb(214,35,0) ;
+    text-decoration: none;
+    color: rgb(214,35,0);
+    font-family: 'flameregular';
+    padding: 14px 25px 13px 25px;
+    border-radius: 45px;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    z-index: 1;
+}
+.order:hover {
+    background-color: rgb(245,235,220);
+    transition: 250ms;
+}
+.burger{
+    /* margin: 70px; */
+    width: 582px;
+    height: 437px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    border-bottom: 1px solid rgb(117, 117, 117);
+
+}
+.burger-img img{
+    margin-top: px;
+    border-radius: 15px 15px 0px 0px;
+   
+}
+.burger p {
+    margin: 15px;
+    margin-left: 20px;
+    width: 360px;
+    font-family:  'flameregular';
+    color: rgb(80,35,20);
+    font-weight: lighter;
+}
+
+.burger p a {
+    color: rgb(80,35,20);
+}
+
+.burger p a:hover {
+    color: rgb(214,35,0) 
+}
+ .bug {
+    position: relative;
+    bottom: 55px;
+ }
+
+ .main-img{
+    display: inline-grid;
+    grid-template-columns: auto auto ;
+    justify-content: center;
+    margin: 80px;
+    gap: 10px;
+ }
+
+ .deliver{
+    /* margin: 70px; */
+    width: 582px;
+    height: 447px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    border-bottom: 1px solid rgb(117, 117, 117);
+ }
+ .deliver-img img{
+    border-radius: 15px 15px 0px 0px;
+ }
+
+ .deliver p {
+    margin: 15px;
+    margin-left: 20px;
+    width: 360px;
+    font-family:  'flameregular';
+    color: rgb(80,35,20);
+    font-weight: lighter;
+}
+.deliver p a {
+    color: rgb(80,35,20);
+}
+.deliver p a:hover {
+    color: rgb(214,35,0) 
+}
+
+.team {
+    /* margin: 70px; */
+    width: 582px;
+    height: 447px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    border-bottom: 1px solid rgb(117, 117, 117);
+}
+.team-img img{
+    border-radius: 15px 15px 0px 0px;
+ }
+
+ .team p {
+    margin: 15px;
+    margin-left: 20px;
+    width: 360px;
+    font-family:  'flameregular';
+    color: rgb(80,35,20);
+    font-weight: lighter;
+}
+.team p a {
+    color: rgb(80,35,20);
+}
+.team p a:hover {
+    color: rgb(214,35,0) 
+}
+.buge {
+    position: relative;
+    bottom: 75px;
+ }
+ .phone-sec{
+    background-color:rgb(239,225,204) ;
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 100px; 
+}
+ .app-img {
+    position: relative;
+    top: -103px;
+    left: 280px;
+ }
+
+.app-text h1 {
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'flamebold';
+    color: rgb(80,35,20);
+}
+.app-text{
+   margin-top: 45px;
+   margin-left: 50px;
+   padding-left: 190px;
+   width: 600px;
+}
+.app-imgg{
+    position: relative;
+    bottom: 10px;
+}
+.apple {
+    position: relative;
+    bottom: 18px;
+}
+.app-text p{
+    font-family: 'flamesans' ;
+    font-size: small ;
+    color: rgb(80,35,20);
+    position: relative;
+    bottom: 15px;
+}
+
+footer {
+    margin-top: -140px;
+    background-color: rgb(43,2,0);
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+.ft-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 50px;
+    padding-left: 90px;
+}
+.ft1 ul {
+    list-style-type: none;
+}
+.ft1 li {
+    color: rgb(255,235,205);
+    line-height: 1.5;
+    font-family:  'flamesans';
+}
+.ft1 li a {
+    text-decoration: none;
+    color: rgb(173,163,145);
+    font-family:  'flamesans';
+    
+}
+.ft1 li a:hover{
+    text-decoration: underline;
+}
+ hr {
+    margin-top: 60px;
+    margin-left: 90px;
+    width: 1140px;
+ }
+
+ .ft-foot{
+    margin-top: 10px;
+    margin-bottom: 30px;
+ }
+
+ .ftt1 {
+    float: left;
+    padding-top: 15px;
+    padding-left: 90px;
+    font-family: 'flameregular';
+    color: rgb(255,235,205);
+
+ }
+
+ .social-media{
+    float: right;
+    padding-top: 15px;
+    padding-right: 120px;
+ }
+
+ .social-media ul li{
+    display: inline-block;
+ }

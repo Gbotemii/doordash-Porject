@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sign-img{
+    float: left;
+    
+    
+}
+body{
+    display: flex;
+    background-color: rgb(245,235,220);
+}
+.sign-text{
+    float: right;
+    width: 560px;
+    background-color: rgb(245,235,220);
+    margin-top: 6rem;
+    padding-left: 10rem;
+    line-height: 1.5;
+}
+.sign-page{ 
+    width: 190rem;
+    height: min-content;
+    padding: 20px;
+    margin-top: 22rem;
+    margin-right: 12rem;
+    margin-left: -8rem;
+    border-radius: 12px;
+    background: rgb(255,255,255);
+    line-height: 1.3;
+}
